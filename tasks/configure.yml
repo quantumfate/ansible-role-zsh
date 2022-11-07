@@ -20,7 +20,7 @@
       
   - name: Merge aslias lists
     set_fact:
-      zsh_antigen_bundles: "{{ zsh_aliases | union(zsh_aliases_extras) | unique }}"
+      zsh_aliases: "{{ zsh_aliases | union(zsh_aliases_extras) | unique }}"
 
   - name: Merge source lists
     set_fact:
