@@ -206,7 +206,7 @@ Aliases config mostly same as hotkeys config:
 zsh_aliases:
   - { alias: 'dfh', action: 'df -h | grep -v docker' }
 # with dependency of bundle and without replace default asiases
-- zsh_aliases_extra:
+- zsh_aliases_extras:
   - { alias: 'dfh', action: 'df -h | grep -v docker', bundle: }
 ```
 

@@ -8,7 +8,7 @@ zsh_update_interval: 30 # set 0 for disable autoupdates
 zsh_editor: # mcedit
 zsh_term: xterm-256color
 zsh_mc_solarized_skin: no
-
+zsh_aliases_extras: []
 zsh_personal_config: false
 zsh_alternative_name: .zshrc-personal
 
