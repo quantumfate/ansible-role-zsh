@@ -159,7 +159,7 @@ To keep your changes from being affected set the following variables:
 
 ```yaml
 zsh_personal_config: true
-zsh_alternative_name: /.zshrc_personal # Optional | Use the value skel uses to load your personal configs
+zsh_alternative_name: /.zshrc-personal # Optional | Use the value skel uses to load your personal configs
 ```
 
 ### Hotkeys
@@ -208,9 +208,6 @@ Aliases config mostly same as hotkeys config:
 ``` yaml
 zsh_aliases_extras:
   - { alias: 'dfh', action: 'df -h | grep -v docker' }
-# with dependency of bundle and without replace default asiases
-zsh_aliases_extras:
-  - { alias: 'dfh', action: 'df -h | grep -v docker', bundle: }
 ```
 
 Providing the name is not mandatory.
